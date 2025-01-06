@@ -1,45 +1,46 @@
 import Project from '../../components/Project/Project';
-//TODO: COMPLETE ALL PROJECT IDS//
+// Import your project images
+import weatherApp from '../../assets/images/weather-dashboard.jpg';  
+import employeeTracker from '../../assets/images/employee-tracker.jpg';
+import sleepTracker from '../../assets/images/sleep-tracker.png';
+import vehicleBuilder from '../../assets/images/vehicle-builder.jpg';
+import readMeGenerator from '../../assets/images/readme-generator.jpg';
+// ... import other project images
+
+
 const Portfolio = () => {
-    //TODO: Sample projects data - replace sample projects with my own projects
-    const projects = [
+       const projects = [
         {
-            id: 1,
-            title: "Weather Dashboard",
-            description: "A weather application built with OpenWeather API and JavaScript",
-            deployedLink: "insert link to weather dashboard app", //TODO: insert deployed 'Weather Dashboard' link,
+            title: "Weather-Dashboard App",
+            image: weatherApp, // TODO: ADD IMAGE, make sure image name matches your file
+            deployedLink: "https://your-weather-app-url.com", //TODO: insert deployed 'Weather Dashboard' link,
             githubLink: "https://github.com/noIDEA-tech/09-Ser-API-Weather-Dashboard",
-            imageUrl: "/path-to-my-image.jpg" //TODO: insert path to image
+            description: "Brief description of project 1"
         },
         {
-            id: 2,
             title: "Employee Tracker",
-            description: "An Employee Tracker application built with PostgreSQL and TypeScript",
+            image: employeeTracker, // TODO: ADD IMAGE, make sure image name matches your file
             githubLink: "https://github.com/noIDEA-tech/10-SQL-Employee-Tracker",
-            imageUrl: "/path-to-my-image.jpg" //TODO: insert path to image
+            description: "A command-line application to manage a company's employee database"
         },
         {
-            id: 3,
-            title: "Sleep Tracker-Team Project",
-            description: "A Sleep Tracker application built with JavaScript and bootstrap",
-            deployedLink: "insert link to sleep tracker app", //TODO: insert deployed 'Sleep Tracker' link,
+            title: "Sleep Tracker",
+            image: sleepTracker,  // TODO: ADD IMAGE, make sure image name matches your file
+            deployedLink: "https://ivandamian1.github.io/Project-1/",
             githubLink: "https://github.com/ivandamian1/Project-1",
-            imageUrl: "/path-to-my-image.jpg" //TODO: insert path to image
+            description: "A Sleep Tracker application built with JavaScript and bootstrap"
         },
         {
-            id: 4,
-            title: "Blog",
-            description: "Blog", //TODO: complete description of blog and fix blog
-            githubLink: "https://github.com/noIDEA-tech/04-Blog-Challenge",
-            imageUrl: "/path-to-my-image.jpg" //TODO: insert path to image
-        },
+            title: "Vehicle-Builder",
+            image: vehicleBuilder, //TODO: ADD IMAGE, make sure image name matches your file        
+            githubLink: "https://github.com/noIDEA-tech/08-TS-Vehicle-Builder/tree/main/Develop",
+            description: "TypeScript command-line application that builds and uses cars to have additional options for motorbikes and trucks"  
+         },
         {
-            id: 5,
-            title: "5th project",
-            description: "complete description of 5th project",
-            deployedLink: "insert link to 5th project", //TODO: insert deployed '5th project' link,
-            githubLink: "5th project", //TODO: insert link to 5th project
-            imageUrl: "/path-to-my-image.jpg" //TODO: insert path to image
+            title: "README.md Generator",
+            image:  readMeGenerator,  //TODO: ADD IMAGE, make sure image name matches your file            
+            githubLink: "https://github.com/noIDEA-tech/README.md-Generator", //TODO: insert link to 5th project
+            description: "A command-line README.md generator designed for users to easily create README.md project files"
         },
     ];
 
