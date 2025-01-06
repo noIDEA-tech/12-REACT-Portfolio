@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from '@phosphor-icons/react';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
   
 const Footer = () => {
     return (
@@ -13,7 +13,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-blue-400 transition-colors"
             >
-                <Github className="w-6 h-6" />
+                <FaGithub className="w-6 h-6" />
                 <span className="sr-only">GitHub</span>
             </a>
 
@@ -24,7 +24,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-blue-400 transition-colors"
             >
-                <Linkedin className="w-6 h-6" />
+                <FaLinkedin className="w-6 h-6" />
                 <span className="sr-only">LinkedIn</span>
             </a>
 
@@ -35,7 +35,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-blue-400 transition-colors"
             >
-                <Twitter className="w-6 h-6" />
+                <FaTwitter className="w-6 h-6" />
                 <span className="sr-only">Twitter X</span>
             </a>
         </div>
