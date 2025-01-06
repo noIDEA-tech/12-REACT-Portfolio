@@ -1,5 +1,5 @@
-//Handles routing useing react-router-dom//
-import { Link, useLocation } from 'react-router-dom';
+ import { Link, useLocation } from 'react-router-dom';
+ 
 
 const Navigation = () => {
     const location = useLocation();

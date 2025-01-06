@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import Navigation from '../Navigation/Navbar';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,12 +24,13 @@ return (
           {/* Logo/Name */}
           <div className="flex items-center">
             <Link to="/" className="text-2xl font-bold text-gray-800">
-              Your Name
+              Nancy J Watreas
             </Link>
+            <Navigation /> 
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-4">
+          {/* <nav className="hidden md:flex items-center space-x-4">
             {navItems.map((item) => (
               <Link
                 key={item.path}
@@ -42,7 +44,7 @@ return (
                 {item.text}
               </Link>
             ))}
-          </nav>
+          </nav> */}
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">

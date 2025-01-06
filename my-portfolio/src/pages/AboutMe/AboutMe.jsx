@@ -1,3 +1,5 @@
+import avatar from '../../assets/images/Avatar.png';
+
 const AboutMe = () => {
     return (
         <div className="max-w-4xl mx-auto px-4">
@@ -7,7 +9,7 @@ const AboutMe = () => {
                 {/* Profile Image */}
                 <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg">
                 <img
-                    src="/path-to-your-photo.jpg"  
+                     src={avatar}
                      alt="Nancy Watreas"
                      className="w-full h-full object-cover"
                 />
@@ -47,4 +49,5 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+//
     

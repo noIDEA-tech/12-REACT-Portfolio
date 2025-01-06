@@ -1,8 +1,8 @@
 import { FileDownIcon } from 'lucide-react';
 
-const Resume = () => {
-    // Array of proficiencies
+const resumeFile = "../../assets/images/Resume-NJW25.pdf";
 
+const Resume = () => {
     const proficiencies = {
 
         frontEnd: [
@@ -24,7 +24,7 @@ const Resume = () => {
          'VS Code',
          'npm',
          'Chrome DevTools'   
-        ],
+        ] 
     };
 
     return (
@@ -33,9 +33,10 @@ const Resume = () => {
 
             {/* Download Resume Button */}
             <div className="mb-8">
+                
                 <a
-                href="../src/assets/images/Resume-NJW25.pdf" //TODO: replace with path to resume
-                download
+                href={resumeFile}  
+                download 
                 className="inline-flex items-center px-4 py-2 bg-blue-500 text-white roundeed-md hover:bg-blue-600 transition-colors"
                 >
                     <FileDownIcon className="w-5 h-5 mr-2"/>
