@@ -34,11 +34,11 @@ const Resume = () => {
             {/* Download Resume Button */}
             <div className="mb-8">
                 <a
-                href="/path-to-resume.pdf" //TODO: replace with path to resume
+                href="../src/assets/images/Resume-NJW25.pdf" //TODO: replace with path to resume
                 download
                 className="inline-flex items-center px-4 py-2 bg-blue-500 text-white roundeed-md hover:bg-blue-600 transition-colors"
                 >
-                    <fileDownIcon className="w-5 h-5 mr-2"/>
+                    <FileDownIcon className="w-5 h-5 mr-2"/>
                     Download Resume
                 </a>
             </div>
@@ -47,7 +47,7 @@ const Resume = () => {
             <div className="space-y-8">
                 { /* Front-end */}
                 <div>
-                    <h2 className="text-2xl font-seibold mb-4">Fron-end Proficiencies</h2>
+                    <h2 className="text-2xl font-semibold mb-4">Front-end Proficiencies</h2>
                     <ul className="grid grid-cols-2 md:grid-cols-3 gap-3">
                         {proficiencies.frontEnd.map((skill) => (
                             <li
