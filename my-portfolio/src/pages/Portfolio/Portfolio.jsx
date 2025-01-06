@@ -1,18 +1,17 @@
-import Project from '../../components/Project/Project';
-// Import your project images
+import Project from '../../components/Project/Project'; 
 import weatherApp from '../../assets/images/weather-dashboard.jpg';  
 import employeeTracker from '../../assets/images/employee-tracker.jpg';
 import sleepTracker from '../../assets/images/sleep-tracker.png';
 import vehicleBuilder from '../../assets/images/vehicle-builder.jpg';
 import readMeGenerator from '../../assets/images/readme-generator.jpg';
-// ... import other project images
+ 
 
 
 const Portfolio = () => {
        const projects = [
         {
             title: "Weather-Dashboard App",
-            image: weatherApp, // TODO: ADD IMAGE, make sure image name matches your file
+            image: weatherApp, 
             deployedLink: "https://your-weather-app-url.com", //TODO: insert deployed 'Weather Dashboard' link,
             githubLink: "https://github.com/noIDEA-tech/09-Ser-API-Weather-Dashboard",
             description: "Brief description of project 1"

@@ -1,4 +1,6 @@
 import { FileDownIcon } from 'lucide-react';
+import resume from '../../assets/images/Resume-NJW25'
+
 
 const Resume = () => {
     // Array of proficiencies
@@ -35,7 +37,7 @@ const Resume = () => {
             <div className="mb-8">
                 <a
                 href="../src/assets/images/Resume-NJW25.pdf" //TODO: replace with path to resume
-                download
+                download={resume}
                 className="inline-flex items-center px-4 py-2 bg-blue-500 text-white roundeed-md hover:bg-blue-600 transition-colors"
                 >
                     <FileDownIcon className="w-5 h-5 mr-2"/>
