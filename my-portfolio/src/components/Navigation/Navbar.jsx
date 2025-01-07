@@ -17,7 +17,7 @@ const Navigation = () => {
             <Link
                 key={item.path}
                 to={item.path}
-                className={`px-3 py-2 rounded-md transition-colors
+                className={`px-5 py-2 rounded-md transition-colors
                   ${location.pathname === item.path
                   ? 'bg-blue-500 text-white'
                   : 'text-gray-600 hover:bg-blue-100'
