@@ -18,12 +18,12 @@ const Header = () => {
 const isActive = (path) => location.pathname === path;
 
 return (
-    <header className="bg-white shadow-md">
+    <header className="bg-neutral-400 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           {/* Logo/Name */}
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-gray-800">
+            <Link to="/" className="text-3xl font-bold text-gray-800">
               Nancy J Watreas
             </Link>
             <Navigation /> 

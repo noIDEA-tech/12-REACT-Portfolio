@@ -9,7 +9,7 @@ import Resume from './pages/Resume/Resume';
 function App() {
   return (
     <Router>
-      <div className="flex min-h-screen flex-col">
+      <div className="min-h-screen bg-neutral-200">
         <Header />
         <main className="flex-grow container mx-auto px-4 py-8">
           <Routes>

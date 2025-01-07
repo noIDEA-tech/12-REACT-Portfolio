@@ -3,7 +3,7 @@ import weatherDashboard from '../../assets/images/weather-dashboard.jpg.png';
 import employeeTracker from '../../assets/images/employee-tracker.jpg';
 import sleepTracker from '../../assets/images/sleep-tracker.png';
 import vehicleBuilder from '../../assets/images/vehicle-builder.jpg';
-import readMeGenerator from '../../assets/images/readme-generator.jpg.png';
+import readMeGenerator from '../../assets/images/readme-generator.jpg';
  
 
 
