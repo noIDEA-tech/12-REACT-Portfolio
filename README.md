@@ -5,7 +5,7 @@
 
 
 ## Description
-Creation of my portfolio using React to showcase previous projects, my resume and work history.
+This project consisted of creating an updated portfolio using React, Vite, npm packages and Tailwind framework to showcase some of my web development projects, a short biography and resume.
 
 
 
@@ -19,7 +19,7 @@ Creation of my portfolio using React to showcase previous projects, my resume an
 - [Contact](#contact)
 
 ## Installation
-npm install, npm install react-router-dom @heroicons/react, npm install -D tailwindscss postcss autoprefixer
+npm install; npm install react-router-dom @heroicons/react; npm install lucide-react@latest; npm install -D tailwindscss postcss autoprefixer
 
 ## Usage
 npm run dev
@@ -35,6 +35,9 @@ This is a single-page application portfolio that allows employers to easily revi
 
 ## Tests
 npm run build and npm run dev
+
+## Issues
+Some issues I encountered during the build of this project involved determining the correct (undepreciated) lucide-react syntax for naming links to Github, Linkedin and Twitter and installing the latest version of lucide-react.
 
 ## Contact
 If there are any questions or concerns, I can be reached at:
