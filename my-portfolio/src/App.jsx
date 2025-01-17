@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="min-h-screen bg-neutral-200">
         <Header />
-        <main className="flex-grow container mx-auto px-4 py-8">
+        <main className="flex-grow container mx-auto px-4 py-14">
           <Routes>
             <Route path="/" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
