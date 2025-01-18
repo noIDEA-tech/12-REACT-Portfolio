@@ -20,6 +20,7 @@ const Portfolio = () => {
             title: "Employee Tracker",
             image: employeeTracker,  
             githubLink: "https://github.com/noIDEA-tech/10-SQL-Employee-Tracker",
+            deployedLink: "https://drive.google.com/file/d/1FGjUMmTp6k0KhiWj2BPYDTkzAtNCsVld/view",    
             description: "A command-line application to manage a company's employee database"
         },
         {
@@ -31,7 +32,8 @@ const Portfolio = () => {
         },
         {
             title: "Vehicle-Builder",
-            image: vehicleBuilder,     
+            image: vehicleBuilder, 
+            deployedLink: "https://drive.google.com/file/d/1teOnvWZYrGliWQmC2ef8nvd4V12dH5hm/view?usp=sharing",
             githubLink: "https://github.com/noIDEA-tech/08-TS-Vehicle-Builder/tree/main/Develop",
             description: "TypeScript command-line application that builds and uses cars to have additional options for motorbikes and trucks"  
          },
