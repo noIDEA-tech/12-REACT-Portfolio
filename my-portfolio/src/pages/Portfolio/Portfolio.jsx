@@ -5,11 +5,10 @@ import sleepTracker from '../../assets/images/sleep-tracker.png';
 import vehicleBuilder from '../../assets/images/vehicle-builder.jpg';
 import readMeGenerator from '../../assets/images/readme-generator.jpg';
  
-
-
 const Portfolio = () => {
        const projects = [
         {
+            id: 1,
             title: "Candidate Search",
             image: candidateSearch,
             deployedLink: "https://https-github-com-noidea-tech-13-react-ts.onrender.com",  
@@ -17,6 +16,7 @@ const Portfolio = () => {
             description: "An interactive Web App using the GitHub API to retrieve user data for employers to search for potiential candidates"
         },
         {
+            id: 2,
             title: "Employee Tracker",
             image: employeeTracker,  
             githubLink: "https://github.com/noIDEA-tech/10-SQL-Employee-Tracker",
@@ -24,6 +24,7 @@ const Portfolio = () => {
             description: "A command-line application to manage a company's employee database"
         },
         {
+            id: 3,
             title: "Sleep Tracker",
             image: sleepTracker,  
             deployedLink: "https://ivandamian1.github.io/Project-1/",
@@ -31,6 +32,7 @@ const Portfolio = () => {
             description: "A Sleep Tracker application built with JavaScript and bootstrap"
         },
         {
+            id: 4,
             title: "Vehicle-Builder",
             image: vehicleBuilder, 
             deployedLink: "https://drive.google.com/file/d/1sPwUh0Ibi4VFQwuLjpwkX_nOj7wdEazu/view",
@@ -38,6 +40,7 @@ const Portfolio = () => {
             description: "A TypeScript CLI application with vehicle production and modification commands"  
          },
         {
+            id: 5,
             title: "README.md Generator",
             image: readMeGenerator,  
             deployedLink: "https://drive.google.com/file/d/1T8sRQ3clfHKkR5kK52yPWnAshSyZupe5/view",       
@@ -54,10 +57,10 @@ const Portfolio = () => {
                     <Project
                         key={project.id}
                         title={project.title}
-                        description={project.description}
+                        image={project.image}
                         deployedLink={project.deployedLink}
                         githubLink={project.githubLink}
-                        image={project.image}
+                        description={project.description}
                     />
                 ))}
             </div>

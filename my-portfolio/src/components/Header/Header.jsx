@@ -19,8 +19,9 @@ const isActive = (path) => location.pathname === path;
 
 return (
     <header className="bg-neutral-400 shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* <div className="flex justify-between items-center h-16"> */}
+        <div className="flex flex-col md:flex-row justify-between items-center h-16">
           {/* Logo/Name */}
           <div className="flex items-center">
             <Link to="/" className="text-3xl font-bold text-gray-800">
@@ -29,24 +30,8 @@ return (
             <Navigation /> 
           </div>
 
-          {/* Desktop Navigation */}
-          {/* <nav className="hidden md:flex items-center space-x-4">
-            {navItems.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors
-                  ${isActive(item.path)
-                    ? 'bg-blue-500 text-white'
-                    : 'text-gray-600 hover:bg-blue-50 hover:text-blue-600'
-                  }`}
-              >
-                {item.text}
-              </Link>
-            ))}
-          </nav> */}
-
           {/* Mobile menu button */}
+
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -91,3 +76,20 @@ return (
 };
 
 export default Header;
+
+          {/* Desktop Navigation */}
+          {/* <nav className="hidden md:flex items-center space-x-4">
+            {navItems.map((item) => (
+              <Link
+                key={item.path}
+                to={item.path}
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors
+                  ${isActive(item.path)
+                    ? 'bg-blue-500 text-white'
+                    : 'text-gray-600 hover:bg-blue-50 hover:text-blue-600'
+                  }`}
+              >
+                {item.text}
+              </Link>
+            ))}
+          </nav> */}
