@@ -27,6 +27,7 @@ const Navigation = () => {
             </Link>     
         ))}
     </nav>
+  
   );
 };
 

@@ -86,7 +86,7 @@ const Contact = () => {
     <div className="max-w-2x1 mx-auto">
         <h2 className="text-3x1 font-bold mb-8">Contact Me</h2>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-8">
                 {/* Name Field */}
     <div>
         <label
