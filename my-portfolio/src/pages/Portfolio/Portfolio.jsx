@@ -33,14 +33,15 @@ const Portfolio = () => {
         {
             title: "Vehicle-Builder",
             image: vehicleBuilder, 
-            deployedLink: "https://drive.google.com/file/d/1teOnvWZYrGliWQmC2ef8nvd4V12dH5hm/view?usp=sharing",
+            deployedLink: "https://drive.google.com/file/d/1sPwUh0Ibi4VFQwuLjpwkX_nOj7wdEazu/view",
             githubLink: "https://github.com/noIDEA-tech/08-TS-Vehicle-Builder/tree/main/Develop",
             description: "TypeScript command-line application that builds and uses cars to have additional options for motorbikes and trucks"  
          },
         {
             title: "README.md Generator",
-            image:  readMeGenerator,          
-            githubLink: "https://github.com/noIDEA-tech/README.md-Generator", //TODO: insert link to 5th project
+            image: readMeGenerator,  
+            deployedLink: "https://drive.google.com/file/d/1T8sRQ3clfHKkR5kK52yPWnAshSyZupe5/view",       
+            githubLink: "https://github.com/noIDEA-tech/README.md-Generator",
             description: "A command-line README.md generator designed for users to easily create README.md project files"
         },
     ];
