@@ -1,6 +1,6 @@
 import { FileDownIcon } from 'lucide-react';
 
-const resumeFile = "../../assets/images/Resume-NJW25.pdf";
+import resumeFile from '../../assets/images/Resume-NJW25.pdf';
 
 const Resume = () => {
     const proficiencies = {
@@ -35,7 +35,7 @@ const Resume = () => {
                 
                 <a
                 href={resumeFile}  
-                download 
+                download="Resume-NJW25.pdf"
                 className="inline-flex items-center px-4 py-2 bg-blue-500 text-white roundeed-md hover:bg-blue-600 transition-colors"
                 >
                 <FileDownIcon className="w-5 h-5 mr-2"/>
@@ -47,7 +47,7 @@ const Resume = () => {
             <div className="space-y-8">
                 { /* Front-end */}
             <section>
-                <h2 className="text-2xl font-semibold mb-4 text-neutral-800">Front-end Proficiencies</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-neutral-800">Front-end Instructional Experience</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                     {proficiencies.frontEnd.map((skill) => (
                 <div key={skill} className="bg-neutral-200 px-4 py-2 rounded-md text-center">
@@ -59,7 +59,7 @@ const Resume = () => {
 
                 {/* Back-end */}
             <section>
-                <h2 className="text-2xl font-semibold mb-4 text-neutral-800">Back-end Proficiencies</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-neutral-800">Back-end Instructional Experience</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                     {proficiencies.backEnd.map((skill) => (
                 <div key={skill} className="bg-neutral-200 px-4 py-2 rounded-md text-center">

@@ -14,12 +14,13 @@ const Portfolio = () => {
             image: candidateSearch,
             deployedLink: "https://https-github-com-noidea-tech-13-react-ts.onrender.com",  
             githubLink: "https://github.com/noIDEA-tech/13-React-TS-Candidate-Search-New",
-            description: "A Search App that uses an API to retrieve User data from the GitHub API for the purpose of searching for and saving potential candidates for employment."
+            description: "An interactive Web App using the GitHub API to retrieve user data for employers to search for potiential candidates"
         },
         {
             title: "Employee Tracker",
             image: employeeTracker,  
             githubLink: "https://github.com/noIDEA-tech/10-SQL-Employee-Tracker",
+            deployedLink: "https://drive.google.com/file/d/1FGjUMmTp6k0KhiWj2BPYDTkzAtNCsVld/view",    
             description: "A command-line application to manage a company's employee database"
         },
         {
@@ -31,15 +32,17 @@ const Portfolio = () => {
         },
         {
             title: "Vehicle-Builder",
-            image: vehicleBuilder,     
+            image: vehicleBuilder, 
+            deployedLink: "https://drive.google.com/file/d/1sPwUh0Ibi4VFQwuLjpwkX_nOj7wdEazu/view",
             githubLink: "https://github.com/noIDEA-tech/08-TS-Vehicle-Builder/tree/main/Develop",
-            description: "TypeScript command-line application that builds and uses cars to have additional options for motorbikes and trucks"  
+            description: "A TypeScript CLI application with vehicle production and modification commands"  
          },
         {
             title: "README.md Generator",
-            image:  readMeGenerator,          
-            githubLink: "https://github.com/noIDEA-tech/README.md-Generator", //TODO: insert link to 5th project
-            description: "A command-line README.md generator designed for users to easily create README.md project files"
+            image: readMeGenerator,  
+            deployedLink: "https://drive.google.com/file/d/1T8sRQ3clfHKkR5kK52yPWnAshSyZupe5/view",       
+            githubLink: "https://github.com/noIDEA-tech/README.md-Generator",
+            description: "A CLI README.md generator designed for users to easily create README.md project files for their applications"
         },
     ];
 
