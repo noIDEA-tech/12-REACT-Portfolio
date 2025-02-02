@@ -7,9 +7,9 @@ const Navigation = () => {
     const navItems = [
         { path: '/', text: 'About Me' },
         { path: '/portfolio', text: 'Portfolio' },
-        { path: '/resume', text: 'Resume' },
-        { path: './contact', text: 'Contact' }
-       
+        { path: './contact', text: 'Contact' },
+        { path: '/resume', text: 'Resume' }
+   
   ];
 
   return (

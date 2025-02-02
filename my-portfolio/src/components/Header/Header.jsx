@@ -20,13 +20,13 @@ const isActive = (path) => location.pathname === path;
 return (
     <header className="bg-neutral-400 shadow-md">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* <div className="flex justify-between items-center h-16"> */}
-        <div className="flex flex-col md:flex-row justify-between items-center h-16">
+        <div className="flex justify-between items-center h-16">
+        {/* <div className="flex flex-col md:flex-row justify-between items-center h-16"> */}
           {/* Logo/Name */}
           <div className="flex items-center">
-            <Link to="/" className="text-3xl font-bold text-gray-800">
+            <h1 className="text-3xl font-bold text-gray-800">
               Nancy J Watreas
-            </Link>
+            </h1>
             <Navigation /> 
           </div>
 
