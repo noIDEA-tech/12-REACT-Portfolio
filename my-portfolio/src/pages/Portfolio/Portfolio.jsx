@@ -57,24 +57,46 @@ const Portfolio = () => {
             description: "An Open-weather API Dashboard featuring recall of previous city searches and 5-day forecast"
         },
     ];
-
+    
     return (
-        <div> 
-            <h2 className="text-3xl font-bold mb-8">My Portfolio</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols3 gap-6">
-                {projects.map((project) => (
-                    <Project
-                        key={project.id}
-                        title={project.title}
-                        image={project.image}
-                        deployedLink={project.deployedLink}
-                        githubLink={project.githubLink}
-                        description={project.description}
-                    />
-                ))}
-            </div>
-        </div>
-    );
-};
+        <div className="container mx-auto px-12 py-8">
+        <h2 className="text-3xl font-bold mb-8">My Portfolio</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {projects.map((project) => (
+             <Project
+             key={project.id}
+             title={project.title}
+             image={project.image}
+             deployedLink={project.deployedLink}
+             githubLink={project.githubLink}
+             description={project.description}
+           />
+         ))}
+       </div>
+     </div>
+   );
+ };
 
-export default Portfolio;
+     export default Portfolio;
+
+    
+//     return (
+//         <div> 
+//             <h2 className="text-3xl font-bold mb-8">My Portfolio</h2>
+//             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols3 gap-6">
+//                 {projects.map((project) => (
+//                     <Project
+//                         key={project.id}
+//                         title={project.title}
+//                         image={project.image}
+//                         deployedLink={project.deployedLink}
+//                         githubLink={project.githubLink}
+//                         description={project.description}
+//                     />
+//                 ))}
+//             </div>
+//         </div>
+//     );
+// };
+
+
