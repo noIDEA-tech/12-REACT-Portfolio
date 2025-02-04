@@ -4,6 +4,7 @@ import employeeTracker from '../../assets/images/employee-tracker.jpg';
 import sleepTracker from '../../assets/images/sleep-tracker.png';
 import vehicleBuilder from '../../assets/images/vehicle-builder.jpg';
 import readMeGenerator from '../../assets/images/readme-generator.jpg';
+import weatherDashboard from '../../assets/images/weather-dashboard.jpg';
  
 const Portfolio = () => {
        const projects = [
@@ -46,6 +47,14 @@ const Portfolio = () => {
             deployedLink: "https://drive.google.com/file/d/1T8sRQ3clfHKkR5kK52yPWnAshSyZupe5/view",       
             githubLink: "https://github.com/noIDEA-tech/README.md-Generator",
             description: "A CLI README.md generator designed for users to easily create README.md project files for their applications"
+        },
+        {
+            id: 6,
+            title: "Open-Weather Dashboard",
+            image: weatherDashboard,  
+            deployedLink: "https://zero9-ser-api-weather-dashboard.onrender.com",       
+            githubLink: "https://github.com/noIDEA-tech/Weather-App",
+            description: "An Open-weather API Dashboard featuring recall of previous city searches and 5-day forecast"
         },
     ];
 
