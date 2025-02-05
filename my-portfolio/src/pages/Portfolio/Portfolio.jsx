@@ -4,6 +4,7 @@ import employeeTracker from '../../assets/images/employee-tracker.jpg';
 import sleepTracker from '../../assets/images/sleep-tracker.png';
 import vehicleBuilder from '../../assets/images/vehicle-builder.jpg';
 import readMeGenerator from '../../assets/images/readme-generator.jpg';
+import weatherDashboard from '../../assets/images/weather-dashboard.jpg';
  
 const Portfolio = () => {
        const projects = [
@@ -47,25 +48,55 @@ const Portfolio = () => {
             githubLink: "https://github.com/noIDEA-tech/README.md-Generator",
             description: "A CLI README.md generator designed for users to easily create README.md project files for their applications"
         },
+        {
+            id: 6,
+            title: "Open-Weather Dashboard",
+            image: weatherDashboard,  
+            deployedLink: "https://zero9-ser-api-weather-dashboard.onrender.com",       
+            githubLink: "https://github.com/noIDEA-tech/Weather-App",
+            description: "An Open-weather API Dashboard featuring recall of previous city searches and 5-day forecast"
+        },
     ];
-
+    
     return (
-        <div> 
-            <h2 className="text-3xl font-bold mb-8">My Portfolio</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols3 gap-6">
-                {projects.map((project) => (
-                    <Project
-                        key={project.id}
-                        title={project.title}
-                        image={project.image}
-                        deployedLink={project.deployedLink}
-                        githubLink={project.githubLink}
-                        description={project.description}
-                    />
-                ))}
-            </div>
-        </div>
-    );
-};
+        <div className="container mx-auto px-12 py-8">
+        <h2 className="text-3xl font-bold mb-8">My Portfolio</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {projects.map((project) => (
+             <Project
+             key={project.id}
+             title={project.title}
+             image={project.image}
+             deployedLink={project.deployedLink}
+             githubLink={project.githubLink}
+             description={project.description}
+           />
+         ))}
+       </div>
+     </div>
+   );
+ };
 
-export default Portfolio;
+     export default Portfolio;
+
+    
+//     return (
+//         <div> 
+//             <h2 className="text-3xl font-bold mb-8">My Portfolio</h2>
+//             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols3 gap-6">
+//                 {projects.map((project) => (
+//                     <Project
+//                         key={project.id}
+//                         title={project.title}
+//                         image={project.image}
+//                         deployedLink={project.deployedLink}
+//                         githubLink={project.githubLink}
+//                         description={project.description}
+//                     />
+//                 ))}
+//             </div>
+//         </div>
+//     );
+// };
+
+
