@@ -2,17 +2,18 @@
 
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
+## Description:
+This is single-page application (SPA) portfolio created with Vite using a React template and Tailwind CSS for styling. This application is designed with a navigation bar and sections to display the user's professional profile, curriculum vitae, links to both deployed and CLI projects, a contact form page and a link to download the user's resume PDF.
+
 ## Website Links: 
 - [GtHub Link](https://github.com/noIDEA-tech/12-REACT-Portfolio)
 - [Netlify Link](https://portfolio-nw.netlify.app/)
 
-## Description:
-This is single-page application (SPA) using React for navigation, a component-based structure for maintainable code, and uses Tailwind CSS for styling with a mobile-first responsive design.
 
-![app_image](./my-portfolio/src/assets/images/portfolio-main.png)
-![app_image](./my-portfolio/src/assets/images/portfolio-3.png)
-![app_image](./my-portfolio/src/assets/images/portfolio-2.png)
-![app_image](./my-portfolio/src/assets/images/portfolio-1.png)
+![app_image](./src/assets/images/portfolio-main.png)
+![app_image](./src/assets/images/portfolio-3.png)
+![app_image](./src/assets/images/portfolio-2.png)
+![app_image](./src/assets/images/portfolio-1.png)
 
 
 
